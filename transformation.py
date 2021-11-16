@@ -1,38 +1,65 @@
-
-
-#vegetarian_substitutes['milk'] = 'almond milk'
-#vegetarian_substitutes['cheese'] = 'vegetarian cheese'
-#vegetarian_substitutes['eggs'] = 'tofu scramble'
-
-#vegetarian_substitutes['butter'] = 'vegetarian butter'
-#vegetarian_substitutes['yogurt'] = 'vegetarian yogurt'
-#vegetarian_substitutes['sour cream'] = 'vegetarian sour cream'
-#vegetarian_substitutes['mayonnaise'] = 'vegetarian mayonnaise'
-#vegetarian_substitutes['gelatin'] = 'agar flakes'
-#vegetarian_substitutes['honey'] = 'sweetener'
-#vegetarian_substitutes['sugar'] = 'beet sugar'
-#vegetarian_substitutes['chocolate'] = 'non-dairy vegetarian chocolate bar'
-#vegetarian_substitutes['ice cream'] = 'non-dairy vegetarian ice-cream'
-
 vegetarian_substitutes = {}
 
 vegetarian_substitutes['chicken broth'] = 'vegetable broth'
 vegetarian_substitutes['beef broth'] = 'vegetable broth'
 
+##steak and steak cuts
 #steak(tenderloin, sirloin, filet mignon, flank, skirt, t-bone )
 vegetarian_substitutes['steak'] = 'tofu'
+vegetarian_substitutes['tenderloin'] = 'tofu'
+vegetarian_substitutes['sirloin'] = 'tofu'
+vegetarian_substitutes['filet mignon'] = 'tofu'
+vegetarian_substitutes['flank'] = 'tofu'
+vegetarian_substitutes['t-bone'] = 'tofu'
+
+##beef and beef types
 ##hamburger(burger), prime rib, brisket, buffalo, oxtail
 vegetarian_substitutes['beef'] = 'tofu'
+vegetarian_substitutes['hamburger'] = 'seitan' ##beans, portabello mushrooms
+vegetarian_substitutes['hamburgers'] = 'seitan'
+vegetarian_substitutes['burger'] = 'seitan'
+vegetarian_substitutes['prime rib'] = 'seitan'
+vegetarian_substitutes['ribs'] = 'seitan'
+vegetarian_substitutes['rib'] = 'seitan'
+vegetarian_substitutes['brisket'] = 'seitan'
+vegetarian_substitutes['buffalo'] = 'seitan'
+vegetarian_substitutes['oxtail'] = 'beans'
 #meatloaf, meatballs
 vegetarian_substitutes['meat'] = 'beans' 
-##wings, breast, thigh, leg, feet, drumsticks, nuggets
+
+##chicken and chicken types
+##wings, breast, thigh, leg, drumsticks, nuggets, feet
 vegetarian_substitutes['chicken'] = 'tofu' ##bird, pheasant
+vegetarian_substitutes['chicken wings'] = 'tofu'
+vegetarian_substitutes['wings'] = 'tofu'
+vegetarian_substitutes['chicken thigh'] = 'tofu'
+vegetarian_substitutes['chicken thighs'] = 'tofu'
+vegetarian_substitutes['thighs'] = 'tofu'
+vegetarian_substitutes['chicken leg'] = 'tofu'
+vegetarian_substitutes['chicken legs'] = 'tofu'
+vegetarian_substitutes['chicken drumstick'] = 'tofu'
+vegetarian_substitutes['chicken drumsticks'] = 'tofu'
+vegetarian_substitutes['chicken nuggets'] = 'tofu'
+vegetarian_substitutes['chicken nugget'] = 'tofu'
 
 ##lunch meats/sliced meats
 ##salami, ham, chicken, turkey, bologna, pepperoni
-
+vegetarian_substitutes['salami'] = 'seitan'
+vegetarian_substitutes['ham'] = 'seitan'
+##vegetarian_substitutes['chicken'] = 'tofu'
+vegetarian_substitutes['turkey'] = 'seitan'
+vegetarian_substitutes['bologna'] = 'seitan'
+vegetarian_substitutes['pepperoni'] = 'mushroom'
 ##bacon, hot dog , sausage, brat, kielbasa, cutlet
 vegetarian_substitutes['pork'] = 'tofu' ##jackfruit for pulled pork dishes
+vegetarian_substitutes['bacon'] = 'tofu'
+vegetarian_substitutes['hot dog'] = 'tofu'
+vegetarian_substitutes['sausage'] = 'tofu'
+vegetarian_substitutes['brat'] = 'tofu'
+vegetarian_substitutes['kielbasa'] = 'tofu'
+vegetarian_substitutes['cutlet'] = 'tofu'
+
+
 vegetarian_substitutes['duck'] = 'tofu'
 #falafel, gyro, venison, lamb
 vegetarian_substitutes['goat'] = 'tofu'
@@ -83,7 +110,7 @@ def transform_vegetarian(ingredients) :
     for ing in ingredients :
         if ing['name'] in list_vegetarian_subs :
             ##substitute ingredient name
-            substitute(ingredient, )
+            substitute(ingredient)
         ##if ingredient is in reducible_ingreidents:
             ##reduce amt
 

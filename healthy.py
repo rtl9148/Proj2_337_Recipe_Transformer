@@ -19,14 +19,12 @@ to_healthy_substitution = {
 
 to_healthy_modification = {
     "reduced fat": ["cheese", "Cheddar", "Cheddar cheese", "shredded Cheddar", "shredded sharp Cheddar cheese", "American cheese", "Swiss cheese", "bacon", "turkey bacon", "mozzarella", "shredded mozzarella", "cheddar",],
-    "fat free":    ["plain yogurt", "yogurt", "fruit yogurt", "sour cream"],
+    "fat free":    ["plain yogurt", "yogurt", "fruit yogurt", "sour cream", "greek yogurt"],
     "sugar free":  ["ketchup", "granola", "juice", "licorice", ],
     "low fat":     ["cream cheese", "cream cheese, softened", "mayonnaise", "mayo", "ice cream", ],
     "whole grain": ["pasta", "spaghetti", "fettucine", "penne", "rigatoni", "bowtie", "farfalle", "linguine", "angel's hair", "rotini", "elbows", "macaroni", "orzo", "oat", "oats",],
     "whole wheat": ["white bread", "croissant", "rolls" "brioche", "buns", "bagels", "thick slices bread", "ciabatta rolls", "French baguette", "baguette", "rye bread", "muffin"],
 }
-
-to_healthy_remove = ["salt", ]
 
 ########### UNHEALTHY SUBSTITUTIONS AND MODIFICATIONS ########### 
 to_unhealthy_substitution = {
@@ -40,7 +38,7 @@ to_unhealthy_substitution = {
 }
 
 #List of modifiers to remove 
-to_unhealthy_modification = ["reduced fat", "low fat", "fat free", "sugar free", "whole grain", "whole wheat", "low sodium", "zero calorie"]
+to_unhealthy_remove_modifier = ["reduced fat", "low fat", "fat free", "sugar free", "whole grain", "whole wheat", "low sodium", "zero calorie"]
 
 to_unhealthy_add = []
 

@@ -39,6 +39,11 @@ mexican_add = { ##"cilantro" : [],
                 "cinnamon" : ["white sugar", "sugar", "brown sugar"] }
 ##modifiers
 
+##microwave 1 pouch instant brown rice & serve alongside recipe
+
+mexican_fallback = [
+    "brown rice"
+]
 
 ##--------------TRANSFORM BACK LISTS
 mexican_substitute_rev = {
@@ -50,3 +55,9 @@ mexican_substitute_rev = {
                         "white rice" : ["brown rice"],
                         
 }
+
+##serve 1 slice bread alongside dish(no preparation necessary)
+#
+mexican_fallback_rev = [
+    "bread"
+]

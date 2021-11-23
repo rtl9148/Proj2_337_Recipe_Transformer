@@ -21,6 +21,22 @@ vegetarian_substitutes = {
     "soy sauce" : ["worcestershire sauce"]
 }
 
+##we don't need to add anything always to a vegetarian dish, IMO we should just remove all the 
+##meats and be done
+vegetarian_add = {
+
+}
+
+##vegetarian fallback
+##steam 14 ounce broccoli floret in pot for ~10 mins and serve
+##steam 14 ounce cauliflour in pot for ~10 mins and serve
+##cut up 1 zucchini, steam in pot for ~10 mins and serve
+vegetarian_fallback = [
+    "broccoli", ##no prerequisites for broccol
+    "cauliflour",
+    "zucchini"
+]
+
 ##failed recipes
 ##https://www.allrecipes.com/recipe/217200/cheese-and-bacon-jalapeno-rellenos/
 ##https://www.allrecipes.com/recipe/217193/cheddar-bacon-mac-and-cheese/
@@ -43,11 +59,6 @@ vegetarian_substitutes_rev = {
     "lard" : ["vegetable shortening", "shortening"]
 }
 
-##we don't need to add anything always to a vegetarian dish, IMO we should just remove all the 
-##meats and be done
-vegetarian_add = {
-
-}
 
 ##we DO need to add meat to a vegetarian dish to make it not vegetarian, so for now add just bacon
 ##to everything
@@ -55,6 +66,15 @@ vegetarian_add_rev = {
     "bacon" : []
 
 }
+
+##cut up chicken breast into bits and saute, serve alongside meal
+##cut up steak into bits and saute, serve alongside meal 
+vegetarian_fallback_rev = [
+    "chicken breast", 
+    "steak"
+]
+
+
 ##gumbo? stew?
 ###ears, shoulder, eyes, arm, body, thigh[s], butt, breast, carcass?,
 

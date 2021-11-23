@@ -1,6 +1,5 @@
- https://www.allrecipes.com/recipe/100335/easy-chocolate-bundt-cake-glaze/
- https://www.allrecipes.com/recipe/10033/iced-pumpkin-cookies/
-
+https://www.allrecipes.com/recipe/100335/easy-chocolate-bundt-cake-glaze/
+https://www.allrecipes.com/recipe/10033/iced-pumpkin-cookies/
 https://www.allrecipes.com/recipe/100490/eggnog-french-toast/
 https://www.allrecipes.com/recipe/10113/sugarless-bars/
 https://www.allrecipes.com/recipe/10118/rainbow-cookies/
@@ -16,7 +15,6 @@ https://www.allrecipes.com/recipe/103088/wisconsin-five-cheese-bake/
 https://www.allrecipes.com/recipe/103767/jens-heavenly-egg-salad/
 https://www.allrecipes.com/recipe/10402/the-best-rolled-sugar-cookies/
 https://www.allrecipes.com/recipe/10413/easy-valentine-sandwich-cookies/
-https://www.allrecipes.com/recipe/104412/creole-hot-water-cornbread/
 https://www.allrecipes.com/recipe/104416/raspberry-party-shots/
 https://www.allrecipes.com/recipe/10462/blueberry-crumb-bars/
 https://www.allrecipes.com/recipe/10470/valentine-heart-necklaces/
@@ -180,7 +178,6 @@ https://www.allrecipes.com/recipe/14830/hummus-iii/
 https://www.allrecipes.com/recipe/14837/best-guacamole/
 https://www.allrecipes.com/recipe/148558/candy-apple-martini/
 https://www.allrecipes.com/recipe/14861/spicy-bean-salsa/
-https://www.allrecipes.com/recipe/14883/bavarian-style-meatballs/
 https://www.allrecipes.com/recipe/14902/daddys-guacamole-dip/
 https://www.allrecipes.com/recipe/149221/cajun-spice-mix/
 https://www.allrecipes.com/recipe/14978/apple-dip/
@@ -241,7 +238,6 @@ https://www.allrecipes.com/recipe/157244/orange-sangria/
 https://www.allrecipes.com/recipe/15746/banana-oatmeal-bread/
 https://www.allrecipes.com/recipe/157534/top-shelf-margaritas-on-the-rocks/
 https://www.allrecipes.com/recipe/15760/carrot-cake/
-https://www.allrecipes.com/recipe/157642/homemade-flour-tortillas/
 https://www.allrecipes.com/recipe/157877/vanilla-cupcake/
 https://www.allrecipes.com/recipe/15802/ramen-cabbage-salad/
 https://www.allrecipes.com/recipe/15810/carrot-pineapple-cake-i/
@@ -452,7 +448,6 @@ https://www.allrecipes.com/recipe/199931/avocado-smoothie/
 https://www.allrecipes.com/recipe/20004/broccoli-noodles-and-cheese-casserole/
 https://www.allrecipes.com/recipe/20025/a-fantastic-margarita/
 https://www.allrecipes.com/recipe/200360/rye-whiskey-brie/
-https://www.allrecipes.com/recipe/20066/traditional-white-bread/
 https://www.allrecipes.com/recipe/20075/basic-biscuits/
 https://www.allrecipes.com/recipe/20120/peach-ice-cream/
 https://www.allrecipes.com/recipe/20132/shaggys-perfect-martini/
@@ -614,8 +609,6 @@ https://www.allrecipes.com/recipe/217051/cranberry-and-cilantro-quinoa-salad/
 https://www.allrecipes.com/recipe/217124/bell-pepper-frittata/
 https://www.allrecipes.com/recipe/21712/chocolate-covered-strawberries/
 https://www.allrecipes.com/recipe/217178/pull-apart-easter-blossom-bread/
-https://www.allrecipes.com/recipe/217193/cheddar-bacon-mac-and-cheese/
-https://www.allrecipes.com/recipe/217200/cheese-and-bacon-jalapeno-rellenos/
 https://www.allrecipes.com/recipe/217219/pegu-club-cocktail/
 https://www.allrecipes.com/recipe/21726/sweet-french-toast/
 https://www.allrecipes.com/recipe/217274/broiled-spanish-mackerel/
@@ -657,7 +650,6 @@ https://www.allrecipes.com/recipe/219907/amazing-slow-cooker-chocolate-cake/
 https://www.allrecipes.com/recipe/219920/chocolate-chip-zucchini-bread/
 https://www.allrecipes.com/recipe/219964/chef-johns-chocolate-lava-cake/
 https://www.allrecipes.com/recipe/219967/chef-johns-banana-bread/
-https://www.allrecipes.com/recipe/220080/sausage-stuffed-mushrooms/
 https://www.allrecipes.com/recipe/220107/strawberry-cheesecake-french-toast/
 https://www.allrecipes.com/recipe/220117/creole-coffee/
 https://www.allrecipes.com/recipe/220191/carols-cinnamon-waffles/
@@ -686,7 +678,6 @@ https://www.allrecipes.com/recipe/221109/aunt-connies-coconut-cake/
 https://www.allrecipes.com/recipe/221132/magnificent-macaroni-salad/
 https://www.allrecipes.com/recipe/221156/tomato-basil-egg-salad-sandwich/
 https://www.allrecipes.com/recipe/221159/vampiros-mexicanos-mexican-vampires/
-https://www.allrecipes.com/recipe/221180/famous-meatballs/
 https://www.allrecipes.com/recipe/221182/most-amazing-sangria-recipe-ever/
 https://www.allrecipes.com/recipe/221198/transformed-spinach-mushroom-quiche/
 https://www.allrecipes.com/recipe/221200/crustless-spinach-and-mushroom-quiche/
@@ -1074,7 +1065,6 @@ https://www.allrecipes.com/recipe/239621/cinnamon-toast-pumpkin-seeds/
 https://www.allrecipes.com/recipe/23962/unbelievably-good-fruit-dip/
 https://www.allrecipes.com/recipe/239739/gingered-pear-martini/
 https://www.allrecipes.com/recipe/239813/pearl-couscous-salad/
-https://www.allrecipes.com/recipe/239824/grape-jelly-meatballs/
 https://www.allrecipes.com/recipe/239856/cheddar-cheese-muffins/
 https://www.allrecipes.com/recipe/239919/broccoli-and-brussels-sprout-delight/
 https://www.allrecipes.com/recipe/240007/peanut-butter-spider-cookies/
@@ -1180,7 +1170,6 @@ https://www.allrecipes.com/recipe/244973/summer-bounty-pasta/
 https://www.allrecipes.com/recipe/245020/jans-dark-chocolate-swirl-pound-cake/
 https://www.allrecipes.com/recipe/245061/healthy-chocolate-smoothie/
 https://www.allrecipes.com/recipe/245129/eggplant-and-tomato-caponata/
-https://www.allrecipes.com/recipe/245131/tamarind-sauce-fish-curry/
 https://www.allrecipes.com/recipe/245160/maple-granola/
 https://www.allrecipes.com/recipe/245163/the-best-post-workout-shake/
 https://www.allrecipes.com/recipe/24517/honey-cornbread/
@@ -1193,8 +1182,6 @@ https://www.allrecipes.com/recipe/245362/chef-johns-shakshuka/
 https://www.allrecipes.com/recipe/245422/baked-hummus/
 https://www.allrecipes.com/recipe/245559/fall-infused-mashed-potatoes/
 https://www.allrecipes.com/recipe/24556/cinnamon-rolls-iii/
-https://www.allrecipes.com/recipe/245596/honey-garlic-meatballs/
-https://www.allrecipes.com/recipe/245629/ore-ida-slow-cooker-loaded-potato-soup/
 https://www.allrecipes.com/recipe/245666/healthy-broccoli-cheese-bake/
 https://www.allrecipes.com/recipe/245683/south-african-traditional-vetkoek-fried-bread/
 https://www.allrecipes.com/recipe/24571/caramelized-french-toast/
@@ -1209,7 +1196,6 @@ https://www.allrecipes.com/recipe/246198/easy-french-toast-waffles/
 https://www.allrecipes.com/recipe/246199/layered-margarita-jell-o-shots/
 https://www.allrecipes.com/recipe/246247/quick-and-easy-kimchi-salad/
 https://www.allrecipes.com/recipe/24634/artichoke-bruschetta/
-https://www.allrecipes.com/recipe/246405/cast-iron-skillet-buttermilk-cornbread/
 https://www.allrecipes.com/recipe/246412/pineapple-sangria/
 https://www.allrecipes.com/recipe/246455/overnight-oats-blueberry-smoothie-bowl/
 https://www.allrecipes.com/recipe/246471/onigiri-japanese-rice-balls/
@@ -1220,7 +1206,6 @@ https://www.allrecipes.com/recipe/246602/cranberry-brie-holiday-bites/
 https://www.allrecipes.com/recipe/246613/almond-berry-smoothie/
 https://www.allrecipes.com/recipe/246624/best-yet-banana-mini-muffins/
 https://www.allrecipes.com/recipe/246628/spaghetti-cacio-e-pepe/
-https://www.allrecipes.com/recipe/246813/bruschette-al-lardo-di-colonnata/
 https://www.allrecipes.com/recipe/246817/starbucks-pumpkin-bread/
 https://www.allrecipes.com/recipe/246917/sams-sourdough-waffles/
 https://www.allrecipes.com/recipe/246949/hatch-chile-salsa/
@@ -1329,7 +1314,6 @@ https://www.allrecipes.com/recipe/258080/frittata-di-zucchine-e-fiori-di-zucca-i
 https://www.allrecipes.com/recipe/25808/chocolate-truffle-cookies/
 https://www.allrecipes.com/recipe/258103/poison-apple-martini/
 https://www.allrecipes.com/recipe/258187/witches-brew-punch/
-https://www.allrecipes.com/recipe/258294/bacon-and-mushroom-frittata-with-spinach-and-gouda/
 https://www.allrecipes.com/recipe/258370/frozen-vanilla-custard/
 https://www.allrecipes.com/recipe/258377/smashed-cucumber-salad/
 https://www.allrecipes.com/recipe/25844/cosmopolitan-martini/
@@ -1354,7 +1338,6 @@ https://www.allrecipes.com/recipe/259545/cranberry-brie-bites/
 https://www.allrecipes.com/recipe/25969/blueberry-pound-cake/
 https://www.allrecipes.com/recipe/259701/chocolate-cupcakes-with-pumpkin-cheesecake-filling/
 https://www.allrecipes.com/recipe/25973/brown-sugar-pound-cake-i/
-https://www.allrecipes.com/recipe/259982/crock-pot-party-meatballs/
 https://www.allrecipes.com/recipe/259989/ghirardelli-dutch-chocolate-overnight-oats/
 https://www.allrecipes.com/recipe/25999/chocolate-pound-cake-iii/
 https://www.allrecipes.com/recipe/26018/cream-filled-cupcakes/
@@ -1456,7 +1439,6 @@ https://www.allrecipes.com/recipe/266766/vegan-horchata-ice-cream/
 https://www.allrecipes.com/recipe/266826/air-fryer-potato-wedges/
 https://www.allrecipes.com/recipe/266889/tomato-basil-tart/
 https://www.allrecipes.com/recipe/267105/air-fryer-roasted-broccoli-and-cauliflower/
-https://www.allrecipes.com/recipe/267143/make-ahead-sweet-potato-and-chorizo-breakfast-burritos/
 https://www.allrecipes.com/recipe/26740/chocolate-chip-cheese-ball/
 https://www.allrecipes.com/recipe/267555/air-fryer-french-toast-sticks/
 https://www.allrecipes.com/recipe/267798/instant-pot-sweet-acorn-squash/

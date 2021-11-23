@@ -17,7 +17,8 @@ lactose_free_modifiers = {
     "kosher":       ["lunch meat", "cold cuts", "pepperoni", "salami", "ham", "chicken breast", "roast beef", "turkey breast", "pancetta", "prosciutto", "chorizo", "ham", "spice cake mix", "cake mix"],
 }
 
-
+#FALLBACK PLAN
+fallback_sentence = "Serve with your favorite lactose-free beverage!"
 
 #milks
 #cheeses
@@ -27,3 +28,5 @@ lactose_free_modifiers = {
 #certain meats
 #salad dressings
 
+#Make script to add for fallback plan and print sentence
+#i.e. "This recipe is already healthy but you can also add 'blank'"

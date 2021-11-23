@@ -32,6 +32,10 @@ to_healthy_modification = {
     "lean":        ["ham", "cooked ham", "chuck roast", "pork tenderloin", "rump roast", "thick cut pork chops", "pork loin roast", "pork chops", "ham hock", "chopped ham", "skinless chicken thighs", "cooked ham, crumbled"],
 }
 
+#FALLBACK PLAN 
+to_healthy_fallback = ["chopped nuts", "a side of fruit", "a side salad"]
+healthy_fallback_sentence = "Add {} to this recipe for an added health boost."
+
 ########### UNHEALTHY SUBSTITUTIONS AND MODIFICATIONS ########### 
 to_unhealthy_substitution = {
     "whole milk":           ["milk", "skim milk", "2% milk", "1% milk"],
@@ -46,7 +50,9 @@ to_unhealthy_substitution = {
 #List of modifiers to remove 
 to_unhealthy_remove_modifier = ["reduced fat", "low fat", "fat free", "sugar free", "whole grain", "whole wheat", "low sodium", "zero calorie"]
 
-to_unhealthy_add = []
+#FALLBACK PLAN
+to_unhealthy_fallback = ["bacon", "food coloring", "whipped cream"]
+unhealthy_fallback_sentence = "Add {} to this recipe for a fun twist!"
 
 
 

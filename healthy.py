@@ -27,14 +27,15 @@ to_healthy_modification = {
     "whole wheat": ["white bread", "croissant", "rolls" "brioche", "buns", "bagels", "thick slices bread", "ciabatta rolls", "French baguette", \
                     "baguette", "rye bread", "muffin", "French bread"],
     "low sodium":  ["fish sauce", "soy sauce", "balsamic vinaigrette", "miso paste", "pimento-stuffed green olives", "can chopped tomatoes in puree", \
-                    "creamy salad dressing", "cole slaw dressing", "jar sauerkraut with liquid", "beef bouillon", "cubes beef bouillon", "sauerkraut with liquid" \
+                     "cole slaw dressing", "jar sauerkraut with liquid", "beef bouillon", "cubes beef bouillon", "sauerkraut with liquid" \
                     "condensed cream of mushroom soup", "can condensed cream of mushroom soup", "Italian-style salad dressing", "Bavarian-style sauerkraut, undrained", "balsamic vinaigrette salad dressing, or to taste", "condensed cream of celery soup", "dry brown gravy mix", "bottle soy sauce", "creamy salad dressing"],
     "lean":        ["ham", "cooked ham", "chuck roast", "pork tenderloin", "rump roast", "thick cut pork chops", "pork loin roast", "pork chops", "ham hock", "chopped ham", "skinless chicken thighs", "cooked ham, crumbled", "roast", "pork"],
 }
 
 #FALLBACK PLAN 
-to_healthy_fallback = ["chopped nuts", "a side of fruit", "a side salad"]
-healthy_fallback_sentence = "Add {} to this recipe for an added health boost."
+healthy_fallback_sentence = ["Add chopped nuts to this recipe for an added health boost.",
+                             "Add a side of fruit to this recipe for an added health boost.",
+                             "Add a side salad to this recipe for an added health boost."]
 
 ########### UNHEALTHY SUBSTITUTIONS AND MODIFICATIONS ########### 
 to_unhealthy_substitution = {
@@ -51,8 +52,8 @@ to_unhealthy_substitution = {
 to_unhealthy_remove_modifier = ["reduced fat", "low fat", "fat free", "sugar free", "whole grain", "whole wheat", "low sodium", "zero calorie"]
 
 #FALLBACK PLAN
-to_unhealthy_fallback = ["bacon", "food coloring", "whipped cream"]
-unhealthy_fallback_sentence = "Add {} to this recipe for a fun twist!"
-
+unhealthy_fallback_sentence = ["Add bacon to this recipe for a fun twist!",
+                               "Add food coloring to this recipe for a fun twist!",
+                               "Add whipped cream to this recipe for a fun twist!"]
 
 

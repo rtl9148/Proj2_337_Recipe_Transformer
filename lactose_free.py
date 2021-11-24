@@ -14,7 +14,7 @@ lactose_free_modifiers = {
     "lactose free": ["cream cheese", "cream cheese, softened", "cheese", "Cheddar", "Cheddar cheese", "shredded Cheddar", "shredded sharp Cheddar cheese", \
                     "American cheese", "Swiss cheese", "bacon", "turkey bacon", "mozzarella", "shredded mozzarella", "cheddar", "sour cream", "ranch", "ranch dressing", \
                     "yogurt", "greek yogurt", "fruit yogurt", "plain yogurt", "blue cheese", "blue cheese dressing", "eggnog", "PHILADELPHIA Cream Cheese, softened"],
-    "kosher":       ["lunch meat", "cold cuts", "pepperoni", "salami", "ham", "chicken breast", "roast beef", "turkey breast", "pancetta", "prosciutto", "chorizo", "ham", "spice cake mix", "cake mix"],
+    "kosher":       ["lunch meat", "cold cuts", "pepperoni", "salami", "ham", "chicken breast", "roast beef", "turkey breast", "pancetta", "prosciutto", "chorizo", "ham", "spice cake mix", "cake mix", "breast", "chicken"],
 }
 
 #FALLBACK PLAN

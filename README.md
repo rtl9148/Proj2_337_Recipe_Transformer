@@ -5,8 +5,11 @@
 Run the following command:
 
 python -m pip install requests
+
 pip install lxml
+
 pip install -U spacy
+
 python -m spacy download en_core_web_sm
 
 ## RUNNING THE CODE

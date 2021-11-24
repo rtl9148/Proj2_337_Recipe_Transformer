@@ -368,8 +368,8 @@ class recipe_scraper():
                     for key_i in change_record_tracking['sub']:
                         output_str += "Replaced "+key_i+' by '+change_record_tracking['sub'][key_i]+'\n'
                 if change_record_tracking['add']:
-                    for key_i in change_record_tracking['sub']:
-                        output_str += "Added "+change_record_tracking['sub'][key_i]+' to '+key_i+'\n'
+                    for key_i in change_record_tracking['add']:
+                        output_str += "Added "+change_record_tracking['add'][key_i]+' to '+key_i+'\n'
                 if change_record_tracking['mod']:
                     for key_i in change_record_tracking['mod']:
                         output_str += "Added "+change_record_tracking['mod'][key_i]+' to '+key_i+'\n'

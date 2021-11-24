@@ -18,10 +18,10 @@ spacy_nlp = spacy.load("en_core_web_sm")
 
 def normalize_keyword(keyword_in):
     word_tokens = spacy_nlp(keyword_in)
-    return ' '.join([i.text for i in word_tokens[:-1]]+[word_tokens[-1].lemma_]).replace(' - ','-')
+    return ' '.join([i.text for i in word_tokens[:-1]]+[word_tokens[-1].lemma_.lower()]).replace(' - ','-')
 
 def normalize_keyword_tokens(word_tokens):
-        return ' '.join([i.text for i in word_tokens[:-1]]+[word_tokens[-1].lemma_]).replace(' - ','-')
+        return ' '.join([i.text for i in word_tokens[:-1]]+[word_tokens[-1].lemma_.lower()]).replace(' - ','-')
     
 def original_keyword_tokens(word_tokens):
     return ' '.join([i.text for i in word_tokens]).replace(' - ','-')
@@ -350,6 +350,7 @@ class recipe_scraper():
             output_str += 'Step-'+str(cur_ind)+': '+trans_fallback_table[trans_choice][choose_ind]+'\n'
             added_fall_back = trans_fallback_table[trans_choice][choose_ind]
             
+        output_str += '\n==============================================================================\n\n\n'
         output_str += '\n\n\n***Changes for the transformation:\n'
         if added_fall_back:
             output_str += 'Uses the fall back plan: '+added_fall_back+'\n'
@@ -372,7 +373,6 @@ class recipe_scraper():
                     for key_i in change_record_tracking['mod']:
                         output_str += "Added "+change_record_tracking['mod'][key_i]+' to '+key_i+'\n'
         
-        output_str += '\n\n==============================================================================\n'
         output_str = output_str.replace(' .', '.').replace(' ,',',')
         return output_str, parsed_output
         

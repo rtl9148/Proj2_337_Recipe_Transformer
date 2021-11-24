@@ -291,6 +291,7 @@ class recipe_scraper():
         for str_i in list_2:
             if not str_i in list_1:
                 list_1.append(str_i)
+        return list_1
         
             
     def transform_recipe(self, trans_choice, ingredient_str_list_input = [], direction_str_list_input = []):
@@ -306,9 +307,9 @@ class recipe_scraper():
         for str_i in ingredient_str_list:
             parsed_list, found_ingredient, found_cooking_tool, found_cooking_method, found_cooking_method_sec, change_record = self.transform_str(str_i, trans_choice, found_ingredient = ingredient_tracking)
             ingredient_tracking = found_ingredient
-            self.combine_list(cooking_tool_tracking, found_cooking_tool)
-            self.combine_list(cooking_method_tracking, found_cooking_method)
-            self.combine_list(cooking_method_sec_tracking, found_cooking_method_sec)
+            cooking_tool_tracking = self.combine_list(cooking_tool_tracking, found_cooking_tool)
+            cooking_method_tracking = self.combine_list(cooking_method_tracking, found_cooking_method)
+            cooking_method_sec_tracking = self.combine_list(cooking_method_sec_tracking, found_cooking_method_sec)
             for key_i in change_record_tracking:
                 change_record_tracking[key_i].update(change_record[key_i])
             parsed_output['ingredient'].append(' '.join(parsed_list))
@@ -317,9 +318,9 @@ class recipe_scraper():
         direction_str_list = direction_str_list_input if direction_str_list_input else self.get_directions()
         for str_i in direction_str_list:
             parsed_list, found_ingredient, found_cooking_tool, found_cooking_method, found_cooking_method_sec, change_record = self.transform_str(str_i, trans_choice, found_ingredient=ingredient_tracking,  to_update_ingredient=False, num_default=False)
-            self.combine_list(cooking_tool_tracking, found_cooking_tool)
-            self.combine_list(cooking_method_tracking, found_cooking_method)
-            self.combine_list(cooking_method_sec_tracking, found_cooking_method_sec)
+            cooking_tool_tracking = self.combine_list(cooking_tool_tracking, found_cooking_tool)
+            cooking_method_tracking = self.combine_list(cooking_method_tracking, found_cooking_method)
+            cooking_method_sec_tracking = self.combine_list(cooking_method_sec_tracking, found_cooking_method_sec)
             for key_i in change_record_tracking:
                 change_record_tracking[key_i].update(change_record[key_i])
             parsed_output['direction'].append(' '.join(parsed_list))
@@ -438,7 +439,10 @@ class recipe_scraper():
                             else:
                                 word_change = ''
                             change_record[word_trans[0]][cur_normal_word] = word_trans[1]
-                    elif cur_normal_word in cooking_method_table:
+                    if cur_normal_word in rev_unit_table and not found_word:
+                        found_word = True
+                        parsed_list.append(cur_original_word)
+                    if cur_normal_word in cooking_method_table:
                         found_cooking_method.append(cur_normal_word)
                     elif cur_normal_word in cooking_method_table_normalized:
                         found_cooking_method.append(cooking_method_table_normalized[cur_normal_word])
@@ -448,9 +452,6 @@ class recipe_scraper():
                         found_cooking_method_sec.append(cooking_method_secondary_table_normalized[cur_normal_word])
                     elif cur_normal_word in cooking_tool_table:
                         found_cooking_tool.append(cur_normal_word)
-                    elif cur_normal_word in rev_unit_table:
-                        found_word = True
-                        parsed_list.append(cur_original_word)
                     if found_word:
                         start_ind = cur_ind
                         break
